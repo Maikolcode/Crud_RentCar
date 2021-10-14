@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    width: 20%;
+    padding: 10px 15px;
+}
+.img-car, .img-client, .img-email{
+    width: 70px;
+    height: 50px;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+.img-car{
+    background: url('img/car.png') no-repeat;
+    background-size: 100%;
+}
+.img-email{
+    background: url('img/emailblack.png') no-repeat;
+    background-size: 70%;
+}
+.img-client{
+    background: url('img/userbla.png') no-repeat;
+    background-size: 70%;
+}
+.img-car:hover{
+    transform: translateX(8px);
+    background: url('img/cartwo.png') no-repeat;
+    background-size: 100%;
+}
+.img-client:hover{
+    transform: translateX(8px);
+    background: url('img/userblue.png') no-repeat;
+    background-size: 70%;
+}
+.img-email:hover{
+    transform: translateX(8px);
+    background: url('img/emailblue.png') no-repeat;
+    background-size: 70%;
+}
+.ajustar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 40px 0;
+}
+.contenedor-titulo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    margin-top: 40px;
+}
+.txt-titulo{
+    font-weight: bold;
+    font-size: 35px;
+}
+.contenedor-mensaje{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-mnj{
+    width: 50%;
+    padding: 20px;
+}
+.cont-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.cont-btn-car{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+}
+.btn-carro{
+    background-color: rgba(5, 40, 128, 0.8);
+    padding: 6px 20px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0px solid;
+    transition: all .2s ease;
+}
+.btn-carro:hover{
+    background-color: rgba(59, 135, 211);
+    border: .2px solid rgba(33, 86, 140, 0.8);
+}
+.exitoso{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.texto-ayuda{
+    padding-left: 5px;
+    font-size: 13px;
+    color: gray;
+}
+.navbar{
+    background-color: rgba(96, 99, 104, 0.1)  !important;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+}
+.footer{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    background-color: rgba(96, 99, 104, 0.2);
+}
+.alert{
+    width: 100% !important;
+}
+.contenedor-tablas{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+}
+.table{
+    width: 80%;
+}
+.separador-img{
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-separador{
+    width: 10%;
+    height: 60px;
+    justify-content: center;
+    display: flex;
+}
+.logo-separador img{
+    height: 75px;
+    width: 75px;
+}
+.linea{
+    width: 50%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+.cont-client-details{
+    width: 100%;
+    margin: 50px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.texto-detalles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+}
+.info-dt{
+    display: flex;
+    height: 400px;
+}
+.tarjeta-details{
+    border-radius: 10px;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(90deg, rgba(18, 91, 213,0.5) 30%, rgba(31, 198, 203,0.5) 100%);
+    width: 80%;
+    height: 500px;
+}
+.img-dt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.img-dt img{
+    width: 90%;
+    height: 90%;
+}
+.opt-dt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+.edit-opt{
+    width: 50px;
+    height: 50px;
+    background: url(img/editarbl.png) no-repeat;
+    background-size: 100%;
+    transition: all .2s ease;
+}
+.edit-opt:hover{
+    background: url(img/editar.png) no-repeat;
+    background-size: 100%;
+}
+.delete-opt{
+    width: 60px;
+    height: 60px;
+    background: url(img/deletebl.png) no-repeat;
+    background-size: 100%;
+    transition: all .2s ease;
+}
+.delete-opt:hover{
+    background: url(img/delete.png) no-repeat;
+    background-size: 100%;
+}
+.edit-opt, .delete-opt{
+    cursor: pointer;
+    margin: 0 20px;
+}
+.ajuste-txt-cl{
+    width: 100%;
+    padding: 15px 0 15px 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.hidden{
+    display: none !important;
+}
+.table-car-add, .table-client-add, .table-message-add{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 20px;
+}
+.img-message-tb{
+    margin: 20px 0;
+}
+.img-message-tb img{
+    width: 200px;
+    height: 200px;
+}
